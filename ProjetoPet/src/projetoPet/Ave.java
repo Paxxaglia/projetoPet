@@ -6,9 +6,10 @@ public class Ave extends Pet {
 	private String corPenas;
 	private boolean livre;
 	private int mesCorte;
+	private String especie;
 	
 
-	public Ave(String nome, String sexo, double peso, int idade, boolean asaCortada, String corPenas, boolean livre, int mesCorte) {
+	public Ave(String nome, String sexo, double peso, int idade, boolean asaCortada, String corPenas, boolean livre, int mesCorte, String especie) {
 		
 		this.nome = nome;
 		this.sexo = sexo;
@@ -17,10 +18,12 @@ public class Ave extends Pet {
 		this.corPenas = corPenas;
 		this.livre = livre;
 		this.mesCorte = mesCorte;
+		this.especie = especie;
 	}
 	
 	public String toString() {	
-		return "\n\nNome do passaro: " + nome + "\nSexo: " + sexo + "\nPeso: " + peso + "kg\nIdade: " + idade + "\nCor das penas: " + corPenas + "\nÉ livre: " + livre;
+		return "\n\nNome do passaro: " + nome + "\nSexo: " + sexo + "\nPeso: " + peso + "kg\nIdade: " + idade + "\nCor das penas: " + corPenas +
+				"\nÉ livre: " + livre + "\nEspécie: " + especie;
 	}
 	
 	public void cortarAsas(){

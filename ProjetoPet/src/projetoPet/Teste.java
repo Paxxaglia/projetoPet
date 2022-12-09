@@ -10,8 +10,8 @@ public class Teste {
 	public static void main(String[] args) {
 		
 		g = new Gato("tigrao", "macho", 3, 12, true, true, "curta");	
-		c = new Cachorro("Romeu", "Macho", 15, 2, "Pequeno", 32, "Delacruz");
-		p = new Ave("Chico", "Macho", 0.700, 1, true, "azuis", false, 5);
+		c = new Cachorro("Romeu", "Macho", 15, 2, "Medio", 33, "Bull-Terrier");
+		p = new Ave("Chico", "Macho", 0.700, 1, true, "Azuis", false, 5, "Tucano");
 		v = new Vacina("Parvovirose", "09/09/2022", 4);
 		
 		
